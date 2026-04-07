@@ -14,11 +14,11 @@ public class Classesjava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String marque="peujeot";
-        String modele="208";
-        int annee= 2021;
-        int prix = 14500;
-        System.out.println("marque:"+marque + ",modele:"+modele);
-    }
+        public class Voiture {
+            String marque;
+            String modele;
+            int annee;
+            double prix;
+        }
     
 }
