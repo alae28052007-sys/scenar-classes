@@ -14,11 +14,10 @@ public class Classesjava {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        pneus p1 = new pneus(55,205,16,été);
+        pneus p1 = new pneus(55,205,16,"été");
         Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500,p1);
-        Voiture v2 = new Voiture("Toyota", "yaris", 2015, 9800);
-        Voiture v3 = new Voiture("renault", "clio", 2000, 3500);
-        
+        v1.afficherDescription();
+
         }
     
 }
