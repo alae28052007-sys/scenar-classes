@@ -17,7 +17,7 @@ public class Classesjava {
         pneus p1 = new pneus(55,205,16,"été");
         Voiture v1 = new Voiture("Peugeot", "208", 2021, 14500,p1);
         v1.afficherDescription();
-
+        v1.appliquerReduction(30);
         }
     
 }
