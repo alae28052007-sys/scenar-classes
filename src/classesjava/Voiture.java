@@ -28,6 +28,10 @@ public class Voiture {
         System.out.println("Année : " + annee);
         System.out.println("Prix : " + prix + " €");
     }
+    public void appliquerReduction10() {
+        prix = prix*0.90;
+        
+    }
 }
 
 
